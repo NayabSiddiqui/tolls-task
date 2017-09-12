@@ -2,13 +2,13 @@
 
 ### How to set up Dev Environment
 
-> Prerequisites:
+#### Prerequisites:
 - Docker. To install docker on your machine, go [here](https://www.docker.com/)
 - Gradle
 
 ---
 
-> Start MySql database:
+- Start MySql database:
 
 Start a local mysql database and publish mysql's default port 
 `3306` to the host with the following command
@@ -18,7 +18,7 @@ docker run --name task-sql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql
 
 ---
 
-> Create new database to be used by this application:
+- Create new database to be used by this application:
 
 Start another container with the mysql command line and link it with the above started
 mysql container with the following command:
@@ -34,7 +34,7 @@ Create a new database `tasklogs` to be used by the application, by issuing the c
 
 ---
 
-> Run the application:
+- Run the application:
 
 Run the application by issuing following command on command line:
 
