@@ -42,7 +42,11 @@ Run the application by issuing following command on command line:
 gradle bootRun
 ```
 
-Enjoy !
+### Deploying to local maven repository
 
----
+Run the following command to build and deploy the latest jar to local maven repository
+
+```
+gradle publishToMavenLocal
+```
 
